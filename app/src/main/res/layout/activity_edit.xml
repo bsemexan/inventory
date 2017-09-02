@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@color/colorBackground">
+
+            <ImageView
+                android:id="@+id/detail_image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop" />
+
+            <ImageButton
+                android:id="@+id/detail_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/floating_margin"
+                android:src="@drawable/ic_photo_camera_black_24dp" />
+
+        </RelativeLayout>
+        <TextView
+            style="@style/detail_text"
+            android:text="@string/detail_name" />
+
+        <EditText
+            android:id="@+id/detail_name_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text" />
+
+
+        <TextView
+            style="@style/detail_text"
+            android:text="@string/detail_quality" />
+
+        <EditText
+            android:id="@+id/detail_quality_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            tools:text="100" />
+
+        <TextView
+                style="@style/detail_text"
+                android:text="@string/detail_price" />
+
+            <EditText
+                android:id="@+id/detail_price_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberDecimal" />
+
+            <TextView
+                style="@style/detail_text"
+                android:text="Email" />
+
+            <EditText
+                android:id="@+id/detail_phone_et"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:inputType="textEmailAddress" />
+    </LinearLayout>
+</ScrollView>

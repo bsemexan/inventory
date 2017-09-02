@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Inventory</string>
+
+    <string name="detail_name">Name </string>
+    <string name="detail_quality">Quantity </string>
+    <string name="detail_price">Price $</string>
+    <string name="detail_order">Order</string>
+
+    <string name="ware_house_text">It\'s empty here \n Add  with the +\n button below</string>
+    <string name="insert_menu">Dummy Product</string>
+    <string name="delete_menu">Delete All</string>
+
+    <string name="item_price">Price</string>
+    <string name="item_stocks">Stocks</string>
+    <string name="item_sale_bt">Sale</string>
+    <string name="edit_label">Edit </string>
+    <string name="add_label">Add </string>
+    <string name="delete">Delete</string>
+</resources>

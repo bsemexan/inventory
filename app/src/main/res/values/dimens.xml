@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_horizontal">10dp</dimen>
+    <dimen name="margin_vertical">10dp</dimen>
+    <dimen name="detail_text_size">20sp</dimen>
+    <dimen name="detail_image_bt_margin">50dp</dimen>
+    <dimen name="floating_margin">30dp</dimen>
+    <dimen name="item_title_size">20sp</dimen>
+    <dimen name="item_subtitle_size">16sp</dimen>
+    <!-- Common margin value used throughout the app -->
+    <dimen name="activity_margin">16dp</dimen>
+
+
+</resources>
